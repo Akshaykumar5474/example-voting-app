@@ -15,7 +15,7 @@ variables:
   dockerRegistryServiceConnection: '003b20d9-65bd-40f6-b6f9-1228244ea3a5'
   imageRepository: 'akshaykumarexamplevotingapp'
   containerRegistry: 'azureuserak.azurecr.io'
-  dockerfilePath: '$(Build.SourcesDirectory)/vote/Dockerfile'
+  dockerfilePath: '$(Build.SourcesDirectory)/result/Dockerfile'
   tag: '$(Build.BuildId)'
 
   # Agent VM image name
